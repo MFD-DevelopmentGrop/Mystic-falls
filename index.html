@@ -4,6 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mystic Falls | Main</title>
+ <meta charset="UTF-8">
+  <meta name="description" content="A Roblox Development Group">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Mystic Falls">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	</head>
 	<body>
 	<style>
@@ -11,23 +17,27 @@
 
 			font-family: Arial, sa;
 			margin: 1;
-		
+		  content-overflow:wrap;
 			
 			padding: 1;
       background:#090909;
 		}
    
 		.navbar {
+		  position:absolute;
+		  top:50px;
+		   left:465px;
       border:2px solid blue;
       padding:5px;
-      margin:5px;
+      margin:1px;
 		  justify-content:center;
-			background-color: black;
-      border-radius:15px;
-      width:400px;
+	
+		  background:#090909;
+      border-radius:4px;
+      width:395px;
 	    display:flex;
-	 
-	    height:45px;
+	     
+	    height:20px;
 	    top 5px;
 	    gap:15px;
       
@@ -35,52 +45,16 @@
       color:red;
 
 		}
- /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
-/** {
-  scrollbar-width: thin;
-  scrollbar-color: #FF0000 #DFE9EB;
-}*/
-
-/* Chrome, Edge and Safari */
-*::-webkit-scrollbar {
-  height: 10px;
-  width: 10px;
-}
-*::-webkit-scrollbar-track {
-  border-radius: 5px;
-  background-color: #DFE9EB;
-}
-
-*::-webkit-scrollbar-track:hover {
-  background-color: #B8C0C2;
-}
-
-*::-webkit-scrollbar-track:active {
-  background-color: #B8C0C2;
-}
-
-*::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #FF0000;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-  background-color: #FF0000;
-}
-
-*::-webkit-scrollbar-thumb:active {
-  background-color: #000000;
-}
 
 		.navbar a {
 		  text-shadow: 0 0 10px blue, -5px 1px 12px rgba(51, 43, 171);
 		  align-content:center;
 		  
 			color:blue;
-      border-radius:10px;
+      border-radius:4px;
       border:2px solid#090909;
 			text-align: center;
-			padding: 10px 20px;
+			padding: 1px 1px;
 			text-decoration: none;
 			z-index:1;
 	box-shadow:1px 2px 10px 1px black;
@@ -91,41 +65,38 @@
 		  align-content:center;
 	box-shadow:1px 2px 10px 1px black;
       border:2px solid blue;
-      border-radius:15px;
+      border-radius:5px;
 			background-color: #23226b;
 			color: black;
 				z-index:1;
 		}
     .info1{
       position:absolute;
-      border:blue;
+      border:1px solid blue;
       text-shadow: 0 0 10px blue, -5px 1px 12px rgba(51, 43, 171);
 		box-shadow:1px 2px 10px 1px black;
       display:flex;
       top:78px;
       justify-content:center;
-      wrap-text:100px;
-     
-      overflow:wrap;
-    
-      width:360px;
+      width:333px;
       text-align:center;
-     
-      border-radius:3px;
+      border-radius:25px;
       color:blue;
     }
      
     #dropdown1{
       color:blue;
       border-radius:10px;
+        text-shadow: 0 0 10px blue, -5px 1px 12px rgba(51, 43, 171);
       border:2px solid #090909;
 			text-align: center;
-			padding: 10px 20px;
+			padding: 1px 1px;
 			text-decoration: none;
 	box-shadow:1px 2px 10px 1px black;
 			transition:2s;
       position: relative;
   display: inline-block, row;
+  transition:2s;
     }
     
     #dropdown-content{
@@ -135,7 +106,7 @@
   border-radius:2px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
+  padding: 1px 1px;
   z-index: 2;
   gap:10px;
   overflow-wrap:normal;
@@ -146,7 +117,7 @@
     }
   #dropdown1:hover #dropdown-content {
   display: flex;
-  border:2px solid #090909;
+  border:1px solid blue;
   border-radius:10px;
   background:black;
 }
@@ -165,15 +136,89 @@
       border-radius:3px;
       color:blue;
 		}
+		@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+.content-text1{
+  background:black;
+  width:250px;
+  height:50px;
+  display:flex;
+   text-shadow: 0 0 10px blue, -5px 1px 12px rgba(51, 43, 171);
+  	box-shadow:1px 2px 10px 1px black;
+  text-overflow:normal;
+  
+}
+#iatg1{
+  
+ position:absolute;
+      border:2px solid blue;
+		box-shadow:1px 2px 10px 1px black;
+      display:flex;
+      left:467px;
+      top:145px;
+      justify-content:center;
+      width:400px;
+      height:160px;
+      text-align:center;
+     
+ 
+      border-radius:3px;
+      color:blue;
+}
+footer{
+  position:absolute;
+display: row;
+row-template-rows: 20px;
+row-auto-rows: 20px;
+gap:10px;
+padding:1px;
+overflow: auto;
+display-content: inline-block;
+
+border:1px solid blue;
+border-radius:3px;
+width:400px;
+height:76px;
+bottom:300px;
+left:465px;
+text-align:left;
+justify-content:center;
+color:blue;
+}
+.txt1{
+  padding:1px;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #0044FF;
+	font-size: 149px;
+}
+
+
+@keyframes stroke {
+	0%   {
+		fill: rgba(30,33,114,0); stroke: rgba(0,68,255,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(30,33,114,0); stroke: rgba(0,68,255,1); }
+	80%  {fill: rgba(30,33,114,0); stroke: rgba(0,68,255,1); stroke-width: 3; }
+	100% {
+		fill: rgba(30,33,114,1); stroke: rgba(0,68,255,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
 		#iholder{
 		  
 		}
-  @keyframes textshadow {
-  0%   {	text-shadow: 0 0 10px blue, -10px -6px 12px rgba(51, 43, 171);}
-  25%  {  text-shadow: 0 0 10px blue, 9px -6px 12px rgba(51, 43, 171);}
-  50%  {	text-shadow: 0 0 10px black, 2px 7px 12px rgba(51, 43, 171);}
-  75%  {	text-shadow: 0 0 10px blue, -7px 7px 12px rgba(51, 43, 171);}
-  100% {	text-shadow: 0 0 10px blue, -7px -2px 12px rgba(51, 43, 171);}
+  @keyframes welcomeani {
+   
   }
 	</style>
 
@@ -191,19 +236,24 @@
 		</div>
 		<a href="contact-page/index.html">Contact Page</a>
 	</div>
+
   
-  <div class='info1'>
-    <h3>ミスティックフォールズ - Mystic Falls</h3>
-
-  </div>
-  <div class='info2'>
-    <div id='iholder'>
-      <img>
-    </div>
+ 
    
+     <div id='iatg1'>
+       <p class="content-text1">
+Welcome to the Mystic Falls Developent group Main web site most of the content will be hosted here any questions will or should be asked in the discord page! more information will be provided soon.
+   </p>
+     </div>
+    
+ 
 
-  </div>
 
-
+<footer>
+<li>
+<a class='txt1' href='contact-page/index.html'>Contact-Us@</a>
+</li>
+<br>
+</footer>
 </body>
 </html>
